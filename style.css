@@ -1,0 +1,78 @@
+
+body {
+ background-color: green;
+ position: absolute;
+ text-align: center; 
+}
+
+h1 {
+    font-size: large;
+    font-family: Comic Sans MS;
+    color: aqua;
+    position: absolute;
+    text-align: center;
+}
+
+h2 {
+    font-size: medium;
+    font-family: Wingdings;
+    color: blue;
+    position: absolute;
+    text-align: center;
+}
+
+
+aside {
+    border-width: 5px;
+    border-color: blue;
+    border-style: dashed;
+    color: burlywood;
+    border-style: solid;
+    position: absolute;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    font-size: 1em;
+    text-transform: capitalize;
+    border-style: double;
+
+}
+
+div {
+    border-width: 5px;
+    border-color: red;
+    background-color: yellowgreen;
+    
+}
+
+div#gerpgork {
+    position: absolute;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    font-size: 1em;
+    color: blue;
+    text-transform: capitalize;
+    border-style: double;
+}
+
+form {
+    text-align: right;
+    margin: auto;
+    display: flex;
+}
+
+label {
+text-align: center;
+margin: auto;
+}
+
+input {
+text-align: center;
+margin: auto;
+}
+
+button {
+    text-align: center;
+    margin: auto;
+}
