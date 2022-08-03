@@ -1,57 +1,81 @@
 
 body {
- background-color: green;
- position: absolute;
- text-align: center; 
+ background-color: gray;
+ /* position: absolute;
+ text-align: center;  */
 }
 
-h1 {
-    font-size: large;
-    font-family: Comic Sans MS;
-    color: aqua;
-    position: absolute;
-    text-align: center;
+nav {
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
+
+nav > h1 {
+    font-size: 5rem;
+    font-family: Comic Sans MS;
+    color: red;
+    position: relative;
+    display: inline-block;
+    
+}
+
+nav > ul > li {
+    display: inline;
+}
+
+main {
+    background-color: black;
+}
+
 
 h2 {
     font-size: medium;
-    font-family: Wingdings;
-    color: blue;
-    position: absolute;
-    text-align: center;
+    font-family: Comic Sans MS;
+    color: white;
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: Comic Sans MS;
+    color: white;
+
 }
 
 
 aside {
     border-width: 5px;
-    border-color: blue;
-    border-style: dashed;
+    border-color: white;
+    border-style: outset;
     color: burlywood;
-    border-style: solid;
-    position: absolute;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-family: Comic Sans MS;
     background-color: red;
     font-size: 1em;
     text-transform: capitalize;
-    border-style: double;
-
+ 
 }
 
 div {
     border-width: 5px;
-    border-color: red;
-    background-color: yellowgreen;
+    border-color: hsl(20, 50, 90);
+    background-color: hsl(10, 90, 10);
     
+}
+
+p {
+    color: whitesmoke;
 }
 
 div#gerpgork {
     position: absolute;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: aqua;
+    background-color: red;
     font-size: 1em;
-    color: blue;
+    color: white;
     text-transform: capitalize;
     border-style: double;
 }
@@ -60,6 +84,7 @@ form {
     text-align: right;
     margin: auto;
     display: flex;
+    
 }
 
 label {
@@ -75,4 +100,12 @@ margin: auto;
 button {
     text-align: center;
     margin: auto;
+}
+
+
+img#fluffybord {
+/* scale: 25%; */
+position: inherit;
+float: left;
+
 }
